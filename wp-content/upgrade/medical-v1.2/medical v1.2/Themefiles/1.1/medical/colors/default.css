@@ -1,0 +1,70 @@
+body {
+	background:#555;
+	color: #999;
+	}
+	
+.imageborder { 
+		background-color:#f0f0f0;
+		border:1px solid #eee;
+	}	
+	
+/*-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+	Link Colors
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=*/
+a{
+	color:#0094b4; 
+	text-decoration:none;
+	-webkit-transition:color 200ms ease-in;
+	   -moz-transition:color 200ms ease-in;
+		 -o-transition:color 200ms ease-in;
+			transition:color 200ms ease-in;
+	}
+	
+a:hover { 
+	color:#000000; 
+	}
+
+	
+.sf-menu li:hover, .sf-menu li.sfHover,
+.sf-menu a:focus, .sf-menu a:hover, 
+.sf-menu a:active,
+.sf-menu li.current-cat > a, 
+.sf-menu li.current_page_item  > a {  color:#0094b4; }
+	
+	
+.subtitle h1 span,
+.copyright,
+.flickr_badge_image img:hover,
+.flex-direction-nav li .prev:hover,
+.flex-direction-nav li .next:hover,
+.widget_postslist li .thumb img:hover { 
+	background-color:#0094b4;
+	}
+	
+h1 span { color:#105aa6; }
+hr  { 
+	background-color:#000;
+	}	
+
+.toppart { 
+	color:#9fbddb;
+	}
+	
+#boxed #wrapper,
+.header_teasercontent {
+	background-image:url(../images/opacs/dark20.png);
+	}
+	
+	.subtitle h1 span{ padding:10px 30px; }
+	.subdesc { background-color:#fff; }
+
+
+#footer { 
+	background-color:#f4f4f4; 
+	border-color:#0094b4;
+	}
+
+.subtitle h1 span,
+.copyright {
+	color:#fff; 
+	}

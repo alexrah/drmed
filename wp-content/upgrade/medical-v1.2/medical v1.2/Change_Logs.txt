@@ -1,0 +1,31 @@
+v1.2
+-------------------------------------
+
+	#### Added Features
+	- Child Theme Support
+	- Datepicker color variation can be changed via theme color in theme options panel
+	- Fixed custom sidebar issue
+	- Fixed stretched layout bug
+	- Fixed Dropdown bug in IE
+	- Added localization supports and localization file (default.po)
+
+	#### Modified Files
+	Modified all the files and updated the theme with new rules on themeforest for keeping the native functionality of the wordpress.
+
+	
+V1.1
+-------------------------------------
+	#### Modified files
+	- css/skin.php
+	- framework/admin/theme-options.php
+	- sliders/flex-slider.php
+	
+	#### Added Features
+	- Fixed Color Options for copyright footer headings and titles
+	- Fixed Custom Extra CSS Option Bug in theme options panel.
+	- Added Color Option changing for subheader title background color
+	- Slider Speed Changing Option
+
+V1.0
+-------------------------------------
+	Initial Release
