@@ -290,11 +290,11 @@
 						</select></label>
 					</p>
 					<p id='appointmenttime_closed_para' style='display:none'>
-						<label><?php _e('Sorry we are closed on this day', 'THEME_FRONT_SITE'); ?></label>
+						<label><?php _e('Giorno di chiusura', 'THEME_FRONT_SITE'); ?></label>
 					</p>
 					<div class="clear"></div>
 					<p><input class="txt input_medium" type="hidden" name="status" id="status" value="unconfirmed" /></p>							
-					<p class="center"><button class="button medium green" onclick="showHint()"><span><?php echo get_option('atp_appointmentformtxt') ? get_option('atp_appointmentformtxt') :'Take Appointment'; ?></span></button><label id="load"></label></p>
+					<p class="center"><button class="button medium green" onclick="showHint()"><span><?php echo get_option('atp_appointmentformtxt') ? get_option('atp_appointmentformtxt') :'Invia Richiesta'; ?></span></button><label id="load"></label></p>
 					<div class="clear"></div>
 				</form>
 			</div>
