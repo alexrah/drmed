@@ -19,7 +19,7 @@
 define('DB_NAME', 'drmed');
 
 /** MySQL database username */
-define('DB_USER', 'drmed_user');
+define('DB_USER', 'drmed');
 
 /** MySQL database password */
 define('DB_PASSWORD', 'rahsite');
