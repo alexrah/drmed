@@ -213,7 +213,21 @@ echo atp_generator('subheader',$post->ID);
 
 	jQuery(document).ready(function() {
 		jQuery("#widgetdateselect").datepicker({
-			dateFormat: "yy-mm-dd", 
+			// dateFormat: "yy-mm-dd", \
+                closeText: 'Chiudi', closeStatus: '',
+                prevText: '&lt;Prec', prevStatus: '',
+                nextText: 'Succ&gt;', nextStatus: '',
+                currentText: 'Oggi', currentStatus: '',
+                monthNames: ['Gennaio','Febbraio','Marzo','Aprile','Maggio','Giugno','Luglio','Agosto','Settembre','Ottobre','Novembre','Dicembre'],
+                monthNamesShort: ['Gen','Feb','Mar','Apr','Mag','Giu',
+                'Lug','Ago','Set','Ott','Nov','Dic'],
+                monthStatus: '', yearStatus: '',
+                weekHeader: 'Sm', weekStatus: '',
+                dayNames: ['Domenica','Luned&#236','Marted&#236','Mercoled&#236','Gioved&#236','Venerd&#236','Sabato'],
+                dayNamesShort: ['Dom','Lun','Mar','Mer','Gio','Ven','Sab'],
+                dayNamesMin: ['Do','Lu','Ma','Me','Gio','Ve','Sa'],
+                dayStatus: 'DD', dateStatus: 'D, M d',
+                dateFormat: 'dd/mm/yy', firstDay: 1,
 			minDate: 0,
 			firstDay: 0,
 			altField: "#dateselect",
