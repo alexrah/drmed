@@ -293,7 +293,7 @@ echo atp_generator('subheader',$post->ID);
 								<span class="specialists">
 									<label><?php echo get_option('atp_consultspecialist')?get_option('atp_consultspecialist'):'Consult Specialist  *'; ?></label>
 										<select id="specialist" name="specialist" class="input_medium">
-											<option selected="" value=""><?php _e('Select a Specialist','THEME_FRONT_SITE'); ?></option>
+											<option selected="" value=""><?php _e('Seleziona uno Specialista','THEME_FRONT_SITE'); ?></option>
 										<?php
 										$query = array(
 											'post_type'			=> 'doctor', 
