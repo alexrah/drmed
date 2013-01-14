@@ -12,6 +12,7 @@ get_header();
 	atp_generator('teaser_option');
 ?> 
 <!-- /- .header_teaser -->
+<center><h1>Sentirsi <strong>in salute</strong> e contenti di se stessi non é </br >un lusso – É un' <strong>assoluta</strong> necessitá.</h1></center>
 <?php
 // Get Slider based on the option selected in theme options panel
 if(get_option("atp_slidervisble") != "on") {
